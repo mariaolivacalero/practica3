@@ -1,0 +1,218 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ed Sheeran</title>
+  <link rel="icon" href="https://i.pinimg.com/originals/c0/ac/01/c0ac01013bb0c0c840c9a176bf735f13.png">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/a940c621bb.js" crossorigin="anonymous"></script>
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+  <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="manifest" href="/docs/5.0/assets/img/favicons/manifest.json">
+  <link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+  <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
+  <meta name="theme-color" content="#7952b3">
+
+
+  <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      .carousel {
+        margin-top : 5rem;
+        margin-bottom: 4rem;
+        margin-left: 10rem;
+        margin-right: 10rem;
+      }
+
+      .d-block w-100{
+        width : 800
+        height:500
+      }
+
+    $carousel-control-color:             $black;
+    $carousel-control-opacity:           .9;
+    $carousel-control-hover-opacity:     .9;
+
+    .card {
+    width: 350px;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #d2d2dc;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
+    box-shadow: 0px 0px 5px 0px rgb(161, 163, 164)
+}
+
+.cookies a {
+    text-decoration: none;
+    color: #000;
+    margin-top: 8px
+}
+
+.cookies a:hover {
+    text-decoration: none;
+    color: blue;
+    margin-top: 8px
+}
+.w3-container {
+  border: 1px solid #000;
+  background-color :white;
+  margin: 20px;
+  width : 25%;
+  font-family: "courier-prime", monospace;
+  padding= 10px:
+}
+.btn{
+	background-color: #e4181b;
+	font-family: "courier-prime", monospace;
+	color: white;
+
+}
+
+
+    </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="carousel.css" rel="stylesheet">
+</head>
+<body>
+<center>
+<div class="w3-container w3-section w3-yellow">
+  <img src=https://us.123rf.com/450wm/yupiramos/yupiramos1903/yupiramos190325740/119798786-postre-de-galleta-dulce-mordida-dise%C3%B1o-de-ilustraciones-vectoriales.jpg?ver=6 height="50" width="50">
+  <h4>Cookies policy</h4>
+  <span class="mt-2">We use third party cookies to personalize content, ads and analyze site traffic.</span>
+
+  <button onclick="this.parentElement.style.display='none'" class="btn">Okay</button>
+</div>
+</center>
+
+<!-- No borrar, aquí se generarán todas las etiquetas <script> si acepta el usuario -->
+<div id="nuevosScripts"></div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="menu.html">
+      <img src=https://1000marcas.net/wp-content/uploads/2020/11/Ed-Sheeran-logo.png alt="" width="100" height="75">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="menu.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="About.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="music.html">Music</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="Europe.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Tickets
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="UK.html">UK</a></li>
+            <li><a class="dropdown-item" href="USA.html">USA</a></li>
+            <li><a class="dropdown-item" href="Europe.html">Europe</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<main>
+
+
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img src="https://promocionmusical.es/wp-content/uploads/2021/10/ed-sheeran-mathmatics-tour.jpg" height = 600 width = 800 class="d-block w-100" >
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="https://media.ambito.com/p/f36d57518e0b0d4c3e98ae3cb6ada8b5/adjuntos/239/imagenes/039/420/0039420270/ed-sheeranjpg.jpg" height = 600 width = 800 class="d-block w-100" >
+      </div>
+      <div class="carousel-item"  data-bs-interval="3000">
+        <img src="https://i.pinimg.com/originals/6e/27/e2/6e27e20723cdaa880fc3e58d4aec59ca.jpg" height = 600 width = 800 class="d-block w-100">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"  data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- FOOTER --><!-- Remove the container if you want to extend the Footer to full width. -->
+
+    <footer class="text-center text-lg-start" style="background-color: #e4181b;">
+      <div class="container d-flex justify-content-center py-5">
+        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" onclick="location.href='https://open.spotify.com/artist/6eUKZXaKkcviH0Ku9w2n3V';" style="background-color: #000000;">
+          <i class="fa-brands fa-spotify"></i>
+        </button>
+        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" onclick= "location.href='https://www.youtube.com/channel/UC0C-w0YjGpqDXGB8IHb662A';" style="background-color: #000000;">
+          <i class="fab fa-youtube"></i>
+        </button>
+        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" onclick= "location.href='https://www.instagram.com/teddysphotos/?hl=es';" style="background-color: #000000;">
+          <i class="fab fa-instagram"></i>
+        </button>
+        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" onclick="location.href='https://twitter.com/edsheeran?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor';" style="background-color: #000000;">
+          <i class="fab fa-twitter"></i>
+        </button>
+      </div>
+
+      <!-- Copyright -->
+      <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright:
+        <p class="text-white" >María Oliva</p>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+  <!-- End of .container -->
+</main>
+
+
+<script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
+
