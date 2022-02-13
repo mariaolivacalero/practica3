@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -9,7 +8,7 @@
   <title>Ed Sheeran</title>
   <link rel="icon" href="https://i.pinimg.com/originals/c0/ac/01/c0ac01013bb0c0c840c9a176bf735f13.png">
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
-  <script src="https://kit.fontawesome.com/a940c621bb.js" crossorigin="anonymous"></script>
+
   <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
 
 
@@ -57,47 +56,6 @@
     $carousel-control-opacity:           .9;
     $carousel-control-hover-opacity:     .9;
 
-    .card {
-    width: 350px;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 1px solid #d2d2dc;
-    border-radius: 6px;
-    -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
-    box-shadow: 0px 0px 5px 0px rgb(161, 163, 164)
-}
-
-.cookies a {
-    text-decoration: none;
-    color: #000;
-    margin-top: 8px
-}
-
-.cookies a:hover {
-    text-decoration: none;
-    color: blue;
-    margin-top: 8px
-}
-.w3-container {
-  border: 1px solid #000;
-  background-color :white;
-  margin: 20px;
-  width : 25%;
-  font-family: "courier-prime", monospace;
-  padding= 10px:
-}
-.btn{
-	background-color: #e4181b;
-	font-family: "courier-prime", monospace;
-	color: white;
-
-}
-
-
     </style>
 
 
@@ -105,18 +63,7 @@
   <link href="carousel.css" rel="stylesheet">
 </head>
 <body>
-<center>
-<div class="w3-container w3-section w3-yellow">
-  <img src=https://us.123rf.com/450wm/yupiramos/yupiramos1903/yupiramos190325740/119798786-postre-de-galleta-dulce-mordida-dise%C3%B1o-de-ilustraciones-vectoriales.jpg?ver=6 height="50" width="50">
-  <h4>Cookies policy</h4>
-  <span class="mt-2">We use third party cookies to personalize content, ads and analyze site traffic.</span>
 
-  <button onclick="this.parentElement.style.display='none'" class="btn">Okay</button>
-</div>
-</center>
-
-<!-- No borrar, aquí se generarán todas las etiquetas <script> si acepta el usuario -->
-<div id="nuevosScripts"></div>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="menu.html">
@@ -131,19 +78,19 @@
           <a class="nav-link active" aria-current="page" href="menu.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="About.html">About</a>
+          <a class="nav-link" href="#">About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="music.html">Music</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="Europe.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="Tickets" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Tickets
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="UK.html">UK</a></li>
-            <li><a class="dropdown-item" href="USA.html">USA</a></li>
-            <li><a class="dropdown-item" href="Europe.html">Europe</a></li>
+            <li><a class="dropdown-item" href="#">UK</a></li>
+            <li><a class="dropdown-item" href="#">USA</a></li>
+            <li><a class="dropdown-item" href="#">Europe</a></li>
           </ul>
         </li>
       </ul>
@@ -182,25 +129,25 @@
 
   <!-- FOOTER --><!-- Remove the container if you want to extend the Footer to full width. -->
 
-    <footer class="text-center text-lg-start" style="background-color: #e4181b;">
+    <footer class="text-center text-lg-start" style="background-color: #db6930;">
       <div class="container d-flex justify-content-center py-5">
-        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" onclick="location.href='https://open.spotify.com/artist/6eUKZXaKkcviH0Ku9w2n3V';" style="background-color: #000000;">
-          <i class="fa-brands fa-spotify"></i>
+        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+          <i class="fab fa-facebook-f" ></i>
         </button>
-        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" onclick= "location.href='https://www.youtube.com/channel/UC0C-w0YjGpqDXGB8IHb662A';" style="background-color: #000000;">
+        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
           <i class="fab fa-youtube"></i>
         </button>
-        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" onclick= "location.href='https://www.instagram.com/teddysphotos/?hl=es';" style="background-color: #000000;">
+        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
           <i class="fab fa-instagram"></i>
         </button>
-        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" onclick="location.href='https://twitter.com/edsheeran?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor';" style="background-color: #000000;">
+        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
           <i class="fab fa-twitter"></i>
         </button>
       </div>
 
       <!-- Copyright -->
       <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2022 Copyright:
+        ©️ 2022 Copyright:
         <p class="text-white" >María Oliva</p>
       </div>
       <!-- Copyright -->
@@ -211,8 +158,3 @@
 
 
 <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-
-</body>
-</html>
-
